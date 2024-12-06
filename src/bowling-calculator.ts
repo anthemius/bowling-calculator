@@ -1,7 +1,7 @@
 /**
  * Class BowlingScoreCalculator
  * 
- * Accepts array of 
+ * Accepts array of rolls and returns calculated scores by frame
  */
 export class BowlingCalculator {
     rolls : (number|null)[];
