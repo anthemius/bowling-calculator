@@ -7,6 +7,8 @@ This is a simple calculator that accepts flat array of bowling scores (individua
 ## Usage
 Create a new BowlingCalculator object with an array of scores. Scores may be integer values between 0 and 9, `X` (strike), or `/` (spare).
 
+    import { BowlingCalculator } from './src/bowling-calculator';
+    
     const calculator = new BowlingCalculator([1, 5, 6, 0, 'X', 3, '/', 9, 0]);
 
     console.log(calculator.scores);
